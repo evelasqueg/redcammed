@@ -15,5 +15,9 @@ st.write('Las redes camineras son espacios públicos seguros para el peatón, lo
 st.subheader('Sistema de consulta de redes camineras de Medellín')
 
 longitud_km = data['features'][0]['properties']['LONGITUD_KM']
+estado = data['features'][0]['properties']['ESTADO']
+nombre = data['features'][0]['properties']['NOMBRE']
 
 print("Longitud en kilómetros:", longitud_km)
+print("Estado:", estado)
+print("Nombre:", nombre)
